@@ -26,8 +26,8 @@ Scenario Outline: Verify able to Search for an movie
     Then I verify same movie is there or not "K.G.F Chapter 2 (Hindi)"
 
     Examples: 
-      | email_id            |  password | userName | movieName     |
-      | dapltest1@gmail.com |  Test@123 |   Test   | KGF Chapter 2 |
+      | movieName     |
+      | KGF Chapter 2 |
       
  @SearchMovieDescription
 Scenario Outline: Verify able to go to movie detail page from search result page
@@ -43,8 +43,8 @@ Scenario Outline: Verify able to go to movie detail page from search result page
     And I verify user landed to movie description page "<movieDesc>"
 
     Examples: 
-      | email_id            |  password | userName | movieName     | movieDesc |
-      | dapltest1@gmail.com |  Test@123 |   Test   | KGF Chapter 2 |Vijendra Ingalgi, Son of Anand Ingalgi continues the story of KGF and Rocky in Chapter 2. Rocky survives the attack by Vanaram’s guards after killing Garuda. He is a hero and a saviour to the people of Narachi. While trying to fulfil his promise to his mother, he must face many obstacles in the form of Adheera, Inayat Khalil and Ramika sen.|
+      | movieName     | movieDesc |
+      | KGF Chapter 2 |Vijendra Ingalgi, Son of Anand Ingalgi continues the story of KGF and Rocky in Chapter 2. Rocky survives the attack by Vanaram’s guards after killing Garuda. He is a hero and a saviour to the people of Narachi. While trying to fulfil his promise to his mother, he must face many obstacles in the form of Adheera, Inayat Khalil and Ramika sen.|
       
  @playVideo
 Scenario Outline: Verify able to play the video
@@ -61,8 +61,8 @@ Scenario Outline: Verify able to play the video
     And I close the play video
       
       Examples: 
-      | email_id            |  password | userName | movieName     |
-      | dapltest1@gmail.com |  Test@123 |   Test   | KGF Chapter 2 |
+     | movieName     |
+     | KGF Chapter 2 |
       
       
  
