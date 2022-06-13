@@ -11,7 +11,7 @@ Feature: Amazon Prime Test cases feature file
 
     Examples: 
       | email_id  | password | userName  |
-      | dapltest1@gmail.com |     Test@123 | Test |
+      | test@gmail.com |     Test@123 | Test |
       
       
  @SearchMovie
